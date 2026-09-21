@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" role="img" aria-labelledby="title description">
+  <title id="title">图片暂不可用</title>
+  <desc id="description">菜品图片暂时无法加载</desc>
+  <rect width="800" height="500" fill="#f3ece2"/>
+  <rect x="252" y="140" width="296" height="184" rx="18" fill="#e2d4c2"/>
+  <path d="M286 294l74-78 54 52 38-38 62 64H286z" fill="#bd9b78"/>
+  <circle cx="454" cy="190" r="20" fill="#bd9b78"/>
+  <text x="400" y="382" text-anchor="middle" fill="#806448" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="24">图片暂不可用</text>
+</svg>
