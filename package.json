@@ -1,0 +1,23 @@
+{
+  "name": "yunxiang-menu",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@11.19.0",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "build:netlify": "node scripts/build-netlify.mjs",
+    "db:init": "node scripts/init-turso.mjs",
+    "migration:download-images": "node scripts/download-sites-images.mjs",
+    "migration:import": "node scripts/import-migration.mjs",
+    "preview": "node scripts/preview.mjs",
+    "smoke:netlify": "node scripts/smoke-netlify.mjs",
+    "validate": "node scripts/validate-artifact.mjs",
+    "validate:netlify": "node scripts/validate-netlify.mjs"
+  },
+  "dependencies": {
+    "@libsql/client": "^0.15.15",
+    "@netlify/blobs": "^10.0.10",
+    "esbuild": "^0.25.9",
+    "undici": "^7.16.0"
+  }
+}

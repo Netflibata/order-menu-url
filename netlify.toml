@@ -1,0 +1,16 @@
+[build]
+  command = "npm run build:netlify"
+  publish = "netlify-dist"
+  functions = "netlify/functions-build"
+
+[functions]
+  directory = "netlify/functions-build"
+  node_bundler = "esbuild"
+  external_node_modules = ["@netlify/blobs"]
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "same-origin"
+    Permissions-Policy = "camera=(), microphone=(), geolocation=()"

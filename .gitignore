@@ -1,0 +1,15 @@
+dist/
+netlify-dist/
+.sites-runtime/
+.netlify/
+netlify/functions-build/
+netlify/functions/migration-manifest.mjs
+.env
+.env.local
+migration/
+node_modules/
+.pnpm-store/
+.npm-cache/
+package-lock.json
+*.tgz
+*.tar.gz
